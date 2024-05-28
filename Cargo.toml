@@ -1,0 +1,7 @@
+[package]
+name = "test-crane-gitrev"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bevy_reflect = { git = "https://github.com/bevyengine/bevy.git", rev = "6d25545c516b2fb7698334c428b9cefdee12281e" }
